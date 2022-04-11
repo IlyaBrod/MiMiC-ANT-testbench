@@ -5,3 +5,6 @@ Legged robots are valuable platforms to mimic animals. Multiple studies compare 
 In this context, we decided to build a new robotic leg test bench, combining the measurements techniques applied on animals and robots in a one and a same test bench. Our test bench allows to establish a robotic leg’s performance table, required mainly, for robot performances assessment, structure and locomotion optimization. Moreover, we used the resulting values to compare a classical hexapod robotic leg with an ant to better understand the gap between a robot and its biological model.
 
 https://hal.archives-ouvertes.fr/hal-03464001v1
+
+
+**See the Github wiki for more details.**
