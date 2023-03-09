@@ -17,10 +17,10 @@ Extracting data from the calibrated database.
 Building the fit model.  
 Plotting fit result.  
 
-4. **Plotting the energetic profile for any selected gait parameters**  
-If not regenerated, use the data available in the root directory /data/estimationData_vX.  
+4. **Estimating robot input power for given gait parameters**  
 
+5. **Estimating hexapod errors (basal power, kinematic errors, thermal power**
 
-
-
+6. **Plotting the energetic profile for any selected gait parameters**  
+If the model is not regenerated, use the data available in the root directory /data/estimationData_vX.  
 
