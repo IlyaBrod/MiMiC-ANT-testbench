@@ -4,6 +4,11 @@ Legged robots are valuable platforms to mimic animals. Multiple studies compare 
 
 In this context, we decided to build a new robotic leg test bench, combining the measurements techniques applied on animals and robots in a one and a same test bench. Our test bench allows to establish a robotic leg’s performance table, required mainly, for robot performances assessment, structure and locomotion optimization. Moreover, we used the resulting values to compare a classical hexapod robotic leg with an ant to better understand the gap between a robot and its biological model.
 
+<img src="./pictures/testbench_1.png">  
+*Photography of the MiMiC-Ant test bench, version 1*  
+*Photography by: ©Tifenn Ripoll - VOST Collectif / Institut Carnot STAR, Jun 2021*  
+
+
 #### Learn more about the test bench applications:  
 
 Ilya Brodoline, Pierre Moretto, Stéphane Viollet, Vincent Fourcassié, Julien Serres. Test Benches for
@@ -36,7 +41,8 @@ This folder includes a custom database management script.
 >PostProcess folder
 >> Groups all the scripts used to process the raw data, and plot energetic profile curves.  
 Postprocess is composed of 3 main parts: full robot calculations, simulation, and test bench data processing.  
-PostProcess script need additional tools from: https://github.com/IlyaBrod/vz_tools  
+PostProcess script need additional tools from: https://github.com/IlyaBrod/vz_tools and https://petercorke.com/toolboxes/robotics-toolbox/   
+
 
 >pictures  
 >> Test bench pictures and result curves.  
