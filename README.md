@@ -56,5 +56,9 @@ Full datasets used during the current study are available from the corresponding
 
 For more informations, see the readme file in each folder.  
 
+<div align="center">
+<img src="./pictures/testbenchStructure.png" width="60%" height="auto">
 
+_Test bench components scheme_  
+</div>
 
