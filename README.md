@@ -5,7 +5,7 @@ Legged robots are valuable platforms to mimic animals. Multiple studies compare 
 In this context, we decided to build a new robotic leg test bench, combining the measurements techniques applied on animals and robots in a one and a same test bench. Our test bench allows to establish a robotic leg’s performance table, required mainly, for robot performances assessment, structure and locomotion optimization. Moreover, we used the resulting values to compare a classical hexapod robotic leg with an ant to better understand the gap between a robot and its biological model.
 
 <div align="center">
-<img src="./pictures/testbench_1.png" width="60%" height="auto">
+<img src="./media/testbench_1.png" width="60%" height="auto">
 
 _Photography of the MiMiC-Ant test bench, version 1_  
 _Photography by: ©Tifenn Ripoll - VOST Collectif / Institut Carnot STAR, Jun 2021_  
@@ -57,7 +57,7 @@ Full datasets used during the current study are available from the corresponding
 For more informations, see the readme file in each folder.  
 
 <div align="center">
-<img src="./pictures/testbenchStructure.png" width="60%" height="auto">
+<img src="./media/testbenchStructure.png" width="60%" height="auto">
 
 _Test bench components scheme_  
 </div>
