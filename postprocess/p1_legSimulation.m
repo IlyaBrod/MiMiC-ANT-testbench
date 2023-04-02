@@ -243,9 +243,9 @@ for spdi=1:numel(simu_freqs)
                Ft = FextLD*(XYZ(1)-COM(1))/(XYZ(3));
                %disp(Ft2-Ft)
                %Rotating to end-effector frame
-               F_angle = -(crrP(2)+crrP(3)); %sum angles two last joints
-               Fcurr =rotz(F_angle*180/pi)*[Ft FextLD 0]';
-               %Fcurr2 = [Ft*cos(F_angle)-FextLD*sin(F_angle) Ft*sin(F_angle)+FextLD*cos(F_angle) 0];
+               tMat = vz_robot_getTransformMat(Leg_sw,q_swO(i,:)); %getting rot matrix
+               tMat = tMat(1:3,1:3);
+               Fcurr = tMat\[Ft 0 FextLD]'; %we need to inverse the rot matrix
                %DynQ_st(i,:) = DynQ_st(i,:)+ Leg_sw.rne(q(i+2,:),qd(i+1,:),qdd(i,:),'fext',[Fcurr(1:3,1)' 0 0 0]);
                DynQ_st(i,:) = DynQ_st(i,:)+ transpose(Leg_sw.jacobe(crrP)'*[Fcurr(1:3,1)' 0 0 0]');
         end
